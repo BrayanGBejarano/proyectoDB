@@ -1,4 +1,4 @@
-package proyectoDB;
+package modelo;
 
 import java.util.Date;
 
