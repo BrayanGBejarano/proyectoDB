@@ -14,14 +14,14 @@ public class ConeccionBD {
 	}
 	private static Connection conectarYConsultarBD() throws Exception {
 		String ip="200.3.193.24";
-		String puerto="1522";
-		String insta="ESTUD";
 		String user="P09551_1_10";
 		String password=user;
 		 Class.forName("oracle.jdbc.driver.OracleDriver");
-		Connection contection=DriverManager.getConnection("jdbc:oracle:thin:@"+ip+":"+puerto+":"+insta,user,password);
+		Connection contection=DriverManager.getConnection("jdbc:oracle:thin:@//200.3.193.24:1522/ESTUD",user,password);
 		return contection;
 	}
+	
+		
 	
 	
 
