@@ -91,6 +91,8 @@ public class IniciarSesion extends JFrame {
 		btnIniciar.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				//AQUI ADENTRO VA LO QUE DEBEN HACER CON EL BOTON AL REGISTRARSE: 1. LLAMAR LA CONTROLADORA DE INICIO DE SESION
+				
+				
 			}
 		});
 		GridBagConstraints gbc_btnIniciar = new GridBagConstraints();
